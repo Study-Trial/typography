@@ -21,6 +21,6 @@ body {
   width: 30rem;
   font-size: 2rem;
   border: 1px solid gray;
-  font-family: 'opensans';
-  font-weight: normal;
+  font-family: Roboto;
+  font-weight: 100;
 }
