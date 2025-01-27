@@ -1,0 +1,26 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, system-ui, Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.logo {
+  font-size: 3.5rem;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.text {
+  height: 30rem;
+  width: 30rem;
+  font-size: 2rem;
+  border: 1px solid gray;
+  font-family: 'opensans';
+  font-weight: normal;
+}
