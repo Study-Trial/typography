@@ -19,7 +19,7 @@ body {
 
 .text {
   width: 50ch;
-  height: 30rem;
+  /* height: 30rem; */
   line-height: 1.5;
   word-spacing: 0.1rem;
   letter-spacing: 0.1rem;
@@ -27,4 +27,13 @@ body {
   border: 1px solid gray;
   font-family: Roboto;
   font-weight: 100;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text:hover {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
 }
